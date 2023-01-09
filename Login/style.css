@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #9534ff;
+}
+
+h5 {
+  margin-top: 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Lexend', sans-serif;
+
+  color: #ffffff;
+}
+
+form {
+  width: 340px;
+  height: 450px;
+background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px #0000001a;
+  backdrop-filter: blur(5px);
+  border: 1px solid #ffffff4d;
+  text-align: left;
+  padding-top: 15px;
+  margin: 40px auto;
+}
+
+.sign {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-family: 'Lexend', sans-serif;
+  color: #fff;
+}
+
+label h4 {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+}
+
+input {
+  width: 250px;
+  height: 40px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  border: #f0f8ff0b;
+  color: #fff;
+  font-family: 'Relway';
+  background-color: transparent;
+  border-bottom: 2px solid #9534ff;
+  text-align: center;
+  outline-color: 1px solid #8729e1;
+  outline: none;
+}
+
+input::placeholder{
+  color: #fff;
+}
+
+.button {
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 70px;
+  background-color: #9534ff;
+  border-radius: 10px;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.button:hover {
+  color: #8729e1;
+  background-color: #ffffff;
+  border: 1px solid #8729e1;
+}
+
+.acct {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Lexend', sans-serif;
+  text-align: center;
+}
+
+.acct a {
+  text-decoration: underline;
+  font-family: 'Lexend', sans-serif;
+  cursor: pointer;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.link {
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width: 280px;
+  height: 40px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 20px;
+  margin-top: 15px;
+  background-color: #9534ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+ .link:hover {
+  background-color: #ffffff;
+  color: #8729e1;
+  border: 1px solid #8729e1;
+}
+
+.google {
+  background-color: #fff;
+  color: #8729e1;
+  border: 1px solid #8729e1;
+}
+
+li.google:hover {
+  background-color: #8729e1;
+  color: #fff;
+}
